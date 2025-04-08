@@ -1,0 +1,47 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif; /* Different font */
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling using ID */
+#cat-info {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    border: 2px solid #ccc; /* Light gray border */
+    margin: 20px; /* Margin around the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling the image using class */
+.cat-image {
+    width: 100%; /* Responsive width */
+    max-width: 300px; /* Maximum width */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 15px; /* Margin below the image */
+}
+
+/* Activities styling using class */
+.activities {
+    background-color: #eaeaea; /* Light gray background for activities */
+    padding: 15px; /* Padding inside activities */
+    border: 1px solid #aaa; /* Darker gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Heading styles using element selector */
+h1, h2 {
+    color: #b5c714; /* Dark text color for headings */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Different font for headings */  
+
+}
+
+p {
+    color: #555; /* Medium gray text color for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    font-style: italic; /* Italic text for paragraphs */
+    font-size: 16px; /* Font size for paragraphs */
+    margin: 10px 0; /* Margin above and below paragraphs */
+}
